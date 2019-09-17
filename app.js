@@ -10,7 +10,7 @@ const http = require("http");
 const WolframAlphaAPI = require("./wolfram/lib/WolframAlphaAPI.js");
 const waApi = WolframAlphaAPI('52872U-EQ6HQAEGJA');
 
-const Group = new VK.Group('fc223b6fcb4dda789039c2cda1d5b34c6b8ebc04032a288c1d6c4bddbc1de8950e4842af9156673c8e80c') // Подробнее: https://vk.com/dev/access_token
+const Group = new VK.Group('') // Подробнее: https://vk.com/dev/access_token
 const app = express();
 // https://www.npmjs.com/package/vk-node-sdk
 
