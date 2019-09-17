@@ -1,0 +1,24 @@
+{
+    "name": "app",
+    "version": "0.0.1",
+    "scripts": {
+        "now-build": "node app.js"
+    },
+    "engines": {
+        "node": "8.9.4"
+    },
+    "devDependencies": {
+        "forever": "^0.15.3",
+        "nodemon": "^1.18.9",
+        "vk-node-sdk": "^0.1.8"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4"
+    },
+    "now": {
+        "engines": {
+            "node": "8.9.4"
+        }
+    }
+}
